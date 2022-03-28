@@ -1,0 +1,23 @@
+.centrado{
+    text-align: center;
+}
+.ing_responsive{
+    width: 109%;
+    max-width: 350px;
+    margin: auto;
+}
+.separacion{
+    margin-top: 50px;
+}
+
+.navbar-logo{
+    display: inline-block;
+    vertical-align: middle;
+    width: 70px;
+}
+
+.navbar-logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
