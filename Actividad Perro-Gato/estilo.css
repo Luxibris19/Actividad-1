@@ -20,4 +20,45 @@
     display: block;
     width: 100%;
     height: auto;
-}
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    
+    }
+    
+    .hero {
+        min-height: 100vh;
+        width: 100%;
+        background-color: #000;
+        background-image: url(Imagenes/cat-dog.gif); 
+        background-position: initial;
+        background-repeat: repeat;
+        background-size: 100%;
+        color: #fff; 
+        padding: 0 8%;
+    } 
+    
+    h1 {
+        font-family: Arial, Helvetica, sans-serif; 
+        font-weight: bolder;
+
+    }
+
+    h2{
+        font-family: Verdana;
+        font-weight: bold;
+    } 
+
+    h4{ 
+        font-family: Verdana;
+        font-weight: lighter;
+    } 
+
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
