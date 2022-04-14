@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario ONG</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row separacion" style="background: rgba(121, 117, 117, 0.548);">
+            <div class="col-md-2 hidden-sm"></div>
+            <div class="col-md-8 col-sm-12">
+                <form action="formulario.html" method="POST" name="formulario">
+                    <h1 class="centradoo">Formulario de comentarios</h1>
+                    <div class="form-group">
+                        <label>Nombre</label>
+                        <input name="nomb" type="text" class="form-control" placeholder="Ingrese su nombre completo...">
+                    </div>
+                    <div class="form-group separacion_formulario">
+                        <label>Correo Electronico</label>
+                        <input name="email" type="text" class="form-control" placeholder="Ingrese su correo electronico...">
+                    </div>
+                    <div class="form-group separacion_formulario">
+                        <fieldset>
+                            <label>Identificacion</label>
+                            <select name="ID" id="ID">
+                                <option value="1">Rut</option>
+                                <option value="2">Pasaporte</option>
+                            </select>
+                            <input name="Rut_Pass" type="text" class="form-control" placeholder="Ingrese su rut o pasaporte segun la opcion seleccionada...">
+                        </fieldset>
+                    </div>
+                    <div class="form-group separacion_formulario">
+                        <label>Contacto telefonico</label>
+                        <select name="Num" id="Num">
+                            <option value="1">Numero celular</option>
+                            <option value="2">Numero telefonico</option>
+                        </select>
+                        <br>
+                        <input name="Number" type="text" class="form-control" placeholder="Ingrese su numero telefonico o de celular segun la opcion elegida...">
+                    </div>
+                    <div class="form-group separacion_formulario">
+                        <div class="row">
+                            <div class="col">
+                                <label>Region</label>
+                                <select>
+                                    <option value="1">Region 1</option>
+                                    <option value="2">Region 2</option>
+                                    <option value="3">Region 3</option>
+                                    <option value="4">Region 4</option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label>Ciudad</label>
+                                <select>
+                                <option value="1">Ciudad 1</option>
+                                <option value="2">Ciudad 2</option>
+                                <option value="3">Ciudad 3</option>
+                                <option value="4">Ciudad 4</option>
+                                </select></div>
+                            <div class="col">
+                                <label>Comuna</label>
+                                <select>
+                                <option value="1">Comuna 1</option>
+                                <option value="2">Comuna 2</option>
+                                <option value="3">Comuna 3</option>
+                                <option value="4">Comuna 4</option>
+                                </select></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Direccion</label>
+                        <input name="Direcc" type="text" class="form-control" placeholder="Direccion, Numero de casa">
+                    </div>
+                    <div class="form-group separacion_formulario">
+                        <label>¿Porque deberiamos elegirte?</label>
+                        <textarea cols="70" rows="5" placeholder="Escriba sus razones" id="texto"></textarea>
+                    </div>
+                    <div class="form-group separacion_formulario">
+                        <div class="row">
+                            <div class="col">
+                                <button type="button">Enviar</button>
+                            </div>
+                            <div class="col">
+                                <button type="button">Limpiar</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-2 hidden-sm"></div>
+        </div>
+    </div>
+</body>
+</html>
